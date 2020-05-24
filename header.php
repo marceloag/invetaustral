@@ -71,10 +71,10 @@
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<!-- Font Awesome -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.theme.default.min.css" />
 <!-- Web Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
 	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/icon.ico" />
@@ -86,13 +86,82 @@
 </head>
 <body>
 
-	<header>
-			<div class="row collapse">
-				 <div class="large-3 columns">
-				 		<img src="http://fakeimg.pl/300x100/00CED1/FFF/?text=img+placeholder" alt="Logo">
-				 </div>
-					<div class="large-9 columns right">
-							<?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'mainmenu right', )); ?>
-					</div>
-			</div>
-	</header>
+    <header>
+        <div class="row full collapse">
+            <div class="large-12 medium-12 small-12 columns contenedor_menu">
+
+                <div class="informacion">
+                    <div class="large-12 medium-12 small-12 columns large-text-right small-text-right">
+                        <ul>
+                            <li><img src="<?php bloginfo('template_directory'); ?>/img/icon_phone.png" width="20" alt=""> Tel:+56 9 8500 2122</li>
+                            <li><img src="<?php bloginfo('template_directory'); ?>/img/icon_correo.png" width="20" alt=""> invet.austral@tie.cl</li>
+                        </ul>
+
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="menu">
+                    <div class="large-12 medium-12 small-12 columns">
+                        <nav class="top-bar" data-topbar role="navigation">
+                            <ul class="title-area">
+                                <li class="name">
+                                    <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_ivetaustral.png" alt=""></a>
+                                    </h1>
+                                </li>
+
+                                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                            </ul>
+
+                            <section class="top-bar-section">
+
+                                <ul class="right">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                                    <li><a href="servicio.html">Servicio</a></li>
+                                    <li><a href="equipamiento.html">Equipamiento</a></li>
+                                    <li class="contacto"><a href="contacto.html">Contacto</a></li>
+                                </ul>
+
+                            </section>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="large-12 medium-12 small-12 columns">
+                <div class="slider">
+
+                    <span class="degradado"></span>
+
+                    <div class="background_slider">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/background_slider.png" alt="">
+                    </div>
+
+                    <div class="texto_slider">
+                        <div class="large-8 medium-12 small-12 columns large-centered medium-centered small-centered text-center">
+                            <div class="texto">
+                                <h1>INVET AUSTRAL</h1>
+                                <h4>Empresa de servicios integrales <br> en salud ambiental...</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false;animation:fade">
+                        <li>
+                            <img src="<?php bloginfo('template_directory'); ?>/img/slider_001.png" alt="">
+                        </li>
+                        <li>
+                            <img src="<?php bloginfo('template_directory'); ?>/img/slider_002.png" alt="">
+                        </li>
+                        <li>
+                            <img src="<?php bloginfo('template_directory'); ?>/img/slider_003.png" alt="">
+                        </li>
+                        <li>
+                            <img src="<?php bloginfo('template_directory'); ?>/img/slider_004.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
