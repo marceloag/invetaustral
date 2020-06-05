@@ -4,7 +4,6 @@
         <div class="row full collapse" id="banner">
             <div class="large-12 medium-12 small-12 columns">
 								<?php the_post_thumbnail('feat');?>
-                <img src="img/banner_001.jpeg" alt="">
             </div>
         </div>
 
