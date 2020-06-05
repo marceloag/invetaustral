@@ -116,8 +116,7 @@ header {
                             font-size: 15px;
                         }
                         &:last-child{
-                            background-color: #263073;
-                            border-radius: 40px;
+                        
                         }
                     }
                 }
@@ -653,6 +652,17 @@ footer {
             background-color: #263073;
             border-radius: 50px;
             font-size: 15px;
+        }
+    }
+}
+
+.menu-mainmenu{
+    li{
+        &:last-child{
+            a{
+                    background-color: #263073;
+                    border-radius: 40px;
+            }
         }
     }
 }
