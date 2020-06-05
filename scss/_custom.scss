@@ -657,12 +657,10 @@ footer {
 }
 
 #menu-mainmenu{
-    li{
-        &:last-child{
+    li:last-child{
             a{
                     background-color: #263073 !important;
                     border-radius: 40px;
             }
-        }
     }
 }
