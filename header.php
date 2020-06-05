@@ -106,7 +106,7 @@
                         <nav class="top-bar" data-topbar role="navigation">
                             <ul class="title-area">
                                 <li class="name">
-                                    <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_ivetaustral.png" alt=""></a>
+                                    <h1><a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo_ivetaustral.png" alt=""></a>
                                     </h1>
                                 </li>
 
