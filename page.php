@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('interior'); ?>
 
     <section>
         <div class="row full collapse" id="banner">
