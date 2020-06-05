@@ -115,13 +115,7 @@
 
                             <section class="top-bar-section">
 
-                                <ul class="right">
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="quienes_somos.html">Quiénes Somos</a></li>
-                                    <li><a href="servicio.html">Servicio</a></li>
-                                    <li><a href="equipamiento.html">Equipamiento</a></li>
-                                    <li class="contacto"><a href="contacto.html">Contacto</a></li>
-                                </ul>
+                                <?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
 
                             </section>
                         </nav>
