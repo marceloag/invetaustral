@@ -89,7 +89,6 @@
     <header>
         <div class="row full collapse">
             <div class="large-12 medium-12 small-12 columns contenedor_menu_interior">
-
                 <div class="informacion">
                     <div class="large-12 medium-12 small-12 columns large-text-right small-text-right">
                         <ul>
@@ -106,7 +105,7 @@
                         <nav class="top-bar" data-topbar role="navigation">
                             <ul class="title-area">
                                 <li class="name">
-                                    <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/Logo_ivetaustral.png" alt=""></a>
+                                    <h1><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_ivetaustral.png" alt=""></a>
                                     </h1>
                                 </li>
 
