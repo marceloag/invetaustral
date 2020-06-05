@@ -10,8 +10,8 @@
                     <li>
                         <span>Invet Austral Ltda</span>
                     </li>
-                    <li>Dirección: Chiloé #294, Punta Arenas</li>
-                    <li>Teléfono: +56 9 8500 2122</li>
+                    <li>Dirección: Maipú #719, Punta Arenas</li>
+                    <li>Teléfonos: +56 9 8500 2122 - +56 9 3387631</li>
                     <li>Mail:invet.austral@tie.cl</li>
                     <li>www.invetaustral.cl</li>
                     <br>
