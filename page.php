@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="texto">
-										<?php the_content();?>
+					<?php the_content();?>
                 </div>
             </div>
         </div>
